@@ -1,0 +1,47 @@
+#body{
+  outline-style: solid;
+  outline-width: 1px;
+  color: black;
+    text-shadow: -1px 0 lightgray, 0 1px lightgrey, 1px 0 lightgrey, 0 -1px lightgray;
+  background-size: cover /*will tell it to cover the screen without tiling, no matter the saize of the screen*/
+  
+}
+
+#quoteAuthor{
+  opacity: 0;
+}
+
+#quoteAuthor:hover{
+ opacity: 1;
+}
+
+#one{
+  min-height: 20px;
+  /*background-color: red*/
+}
+
+#two{
+  min-height: 300px;
+  padding-top: 10%;
+  /*background-color: blue;*/
+   
+}
+
+#three{
+  min-height: 250px;
+}
+
+#four{
+  min-height:20px;
+  /*background-color: green*/
+}
+
+#clock{
+  font-size: 10em; /*whatever font size is normally, times by TEN*/
+
+}
+
+/*.buttonD{
+  border-radius: 5px 15px;
+  background-color: fuchsia;
+}*/
